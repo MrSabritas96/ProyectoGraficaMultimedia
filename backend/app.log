@@ -1,0 +1,1085 @@
+INFO 2026-04-21 12:56:50,288 autoreload 31916 32168 Watching for file changes with StatReloader
+INFO 2026-04-21 12:57:10,224 autoreload 31916 32168 C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py changed, reloading.
+INFO 2026-04-21 12:57:10,678 autoreload 22576 17124 Watching for file changes with StatReloader
+INFO 2026-04-21 12:57:25,624 autoreload 22576 17124 C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py changed, reloading.
+INFO 2026-04-21 12:57:26,115 autoreload 28208 28816 Watching for file changes with StatReloader
+INFO 2026-04-21 12:57:36,319 autoreload 4728 22552 Watching for file changes with StatReloader
+INFO 2026-04-21 12:57:55,434 autoreload 10232 21604 Watching for file changes with StatReloader
+INFO 2026-04-21 12:58:23,657 autoreload 7956 24996 Watching for file changes with StatReloader
+INFO 2026-04-21 12:59:11,024 autoreload 31936 9804 Watching for file changes with StatReloader
+WARNING 2026-04-21 13:00:16,492 log 7956 33400 Not Found: /
+WARNING 2026-04-21 13:00:16,492 basehttp 7956 33400 "GET / HTTP/1.1" 404 179
+WARNING 2026-04-21 13:00:16,536 log 7956 33400 Not Found: /favicon.ico
+WARNING 2026-04-21 13:00:16,536 basehttp 7956 33400 "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2026-04-21 13:00:24,626 log 7956 33400 Not Found: /
+WARNING 2026-04-21 13:00:24,627 basehttp 7956 33400 "GET / HTTP/1.1" 404 179
+INFO 2026-04-21 13:30:28,947 autoreload 28652 28656 Watching for file changes with StatReloader
+INFO 2026-04-21 13:32:40,165 basehttp 28652 27468 "GET /api/auth/login HTTP/1.1" 301 0
+WARNING 2026-04-21 13:32:40,181 exceptions 28652 27516 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:32:40,317 log 28652 27516 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:32:40,317 basehttp 28652 27516 "GET /api/auth/login/ HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:32:40,342 log 28652 27516 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:32:40,343 basehttp 28652 27516 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,346 log 28652 27516 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:32:40,346 basehttp 28652 27516 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,349 log 28652 27516 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:32:40,349 basehttp 28652 27516 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,352 log 28652 27516 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:32:40,352 basehttp 28652 27516 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,355 log 28652 27516 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:32:40,355 basehttp 28652 27516 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,358 log 28652 27516 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:32:40,359 basehttp 28652 27516 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,361 log 28652 27516 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:32:40,362 basehttp 28652 27516 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,365 log 28652 27516 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:32:40,365 basehttp 28652 27516 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,368 log 28652 27516 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:32:40,368 basehttp 28652 27516 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,370 log 28652 27516 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:32:40,371 basehttp 28652 27516 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,373 log 28652 27516 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:32:40,374 basehttp 28652 27516 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:32:40,429 log 28652 27516 Not Found: /favicon.ico
+WARNING 2026-04-21 13:32:40,429 basehttp 28652 27516 "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2026-04-21 13:34:08,385 basehttp 28652 22264 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+WARNING 2026-04-21 13:34:08,388 log 28652 22264 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:34:08,388 basehttp 28652 22264 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:34:53,366 log 28652 22264 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:34:53,366 basehttp 28652 22264 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:07,188 log 28652 22264 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:07,189 basehttp 28652 22264 "POST /api/auth/login/ HTTP/1.1" 400 85
+INFO 2026-04-21 13:35:09,231 basehttp 28652 29600 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+WARNING 2026-04-21 13:35:09,234 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:09,235 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:15,339 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:15,339 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:16,255 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:16,255 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:16,878 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:16,879 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:17,031 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:17,032 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:17,248 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:17,248 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:35,984 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:35,985 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:36,178 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:36,178 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:36,379 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:36,380 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:36,558 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:36,558 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:36,728 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:36,728 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:36,947 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:36,947 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:35:37,493 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:35:37,493 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:36:32,347 exceptions 28652 7784 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:36:32,354 log 28652 7784 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:36:32,355 basehttp 28652 7784 "GET /api/auth/login/? HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:36:32,370 log 28652 7784 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:36:32,371 log 28652 5844 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:36:32,371 basehttp 28652 7784 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,372 basehttp 28652 5844 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,373 log 28652 7784 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:36:32,374 log 28652 5844 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:36:32,374 basehttp 28652 7784 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,375 basehttp 28652 5844 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,377 log 28652 7784 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:36:32,377 log 28652 5844 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:36:32,378 basehttp 28652 7784 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,378 basehttp 28652 5844 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,380 log 28652 7784 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:36:32,380 log 28652 5844 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:36:32,381 basehttp 28652 7784 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,381 basehttp 28652 5844 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,383 log 28652 7784 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:36:32,384 log 28652 5844 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:36:32,385 basehttp 28652 7784 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,385 basehttp 28652 5844 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:36:32,387 log 28652 7784 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:36:32,387 basehttp 28652 7784 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:37:00,842 log 28652 22264 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:37:00,843 basehttp 28652 22264 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:37:05,509 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:37:05,510 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:37:50,686 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:37:50,686 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:37:51,348 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:37:51,349 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:38:05,446 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:38:05,446 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:38:11,727 log 28652 29600 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:38:11,727 basehttp 28652 29600 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:38:28,747 log 28652 22264 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:38:28,748 basehttp 28652 22264 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:39:32,524 log 28652 22264 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:39:32,525 basehttp 28652 22264 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:39:45,912 exceptions 28652 7784 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:39:45,915 log 28652 7784 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:39:45,915 basehttp 28652 7784 "GET /api/auth/login/ HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:39:45,931 log 28652 7784 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:39:45,931 log 28652 5844 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:39:45,932 basehttp 28652 7784 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,932 basehttp 28652 5844 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,936 log 28652 7784 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:39:45,936 log 28652 5844 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:39:45,937 basehttp 28652 5844 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,937 basehttp 28652 7784 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,940 log 28652 5844 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:39:45,940 log 28652 7784 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:39:45,940 basehttp 28652 5844 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,941 basehttp 28652 7784 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,943 log 28652 5844 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:39:45,944 log 28652 7784 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:39:45,944 basehttp 28652 5844 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,945 basehttp 28652 7784 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,948 log 28652 5844 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:39:45,948 log 28652 7784 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:39:45,949 basehttp 28652 5844 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,949 basehttp 28652 7784 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:39:45,952 log 28652 5844 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:39:45,953 basehttp 28652 5844 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:40:08,321 log 28652 22264 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:40:08,322 basehttp 28652 22264 "POST /api/auth/login/ HTTP/1.1" 400 85
+INFO 2026-04-21 13:41:41,121 basehttp 28652 22264 - Broken pipe from ('127.0.0.1', 64307)
+INFO 2026-04-21 13:41:41,121 basehttp 28652 29268 - Broken pipe from ('127.0.0.1', 62231)
+INFO 2026-04-21 13:41:41,121 basehttp 28652 7784 - Broken pipe from ('127.0.0.1', 58375)
+INFO 2026-04-21 13:41:41,121 basehttp 28652 5844 - Broken pipe from ('127.0.0.1', 58219)
+INFO 2026-04-21 13:41:41,122 basehttp 28652 28608 - Broken pipe from ('127.0.0.1', 50779)
+INFO 2026-04-21 13:41:41,122 basehttp 28652 28028 - Broken pipe from ('127.0.0.1', 54170)
+INFO 2026-04-21 13:41:41,122 basehttp 28652 19668 - Broken pipe from ('127.0.0.1', 63232)
+INFO 2026-04-21 13:41:41,343 basehttp 28652 29600 - Broken pipe from ('127.0.0.1', 63100)
+INFO 2026-04-21 13:42:40,513 basehttp 28652 22244 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+WARNING 2026-04-21 13:42:40,516 log 28652 22244 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:42:40,517 basehttp 28652 22244 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:46:14,985 log 28652 22244 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:46:14,986 basehttp 28652 22244 "POST /api/auth/login/ HTTP/1.1" 400 85
+WARNING 2026-04-21 13:46:39,173 log 28652 23652 Not Found: /api
+WARNING 2026-04-21 13:46:39,174 basehttp 28652 23652 "GET /api HTTP/1.1" 404 179
+WARNING 2026-04-21 13:46:39,223 log 28652 23652 Not Found: /favicon.ico
+WARNING 2026-04-21 13:46:39,223 basehttp 28652 23652 "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,191 exceptions 28652 23652 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:47:48,195 log 28652 23652 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:47:48,196 basehttp 28652 23652 "GET /api/auth/login/ HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:47:48,219 log 28652 23652 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:47:48,220 basehttp 28652 23652 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,222 log 28652 23652 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:47:48,223 basehttp 28652 23652 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,226 log 28652 23652 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:47:48,227 basehttp 28652 23652 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,229 log 28652 23652 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:47:48,229 basehttp 28652 23652 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,232 log 28652 23652 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:47:48,233 basehttp 28652 23652 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,235 log 28652 23652 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:47:48,236 basehttp 28652 23652 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,237 log 28652 23652 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:47:48,238 basehttp 28652 23652 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,241 log 28652 23652 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:47:48,241 basehttp 28652 23652 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,243 log 28652 23652 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:47:48,243 basehttp 28652 23652 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,245 log 28652 23652 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:47:48,246 basehttp 28652 23652 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,248 log 28652 23652 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:47:48,248 basehttp 28652 23652 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,596 log 28652 29320 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:47:48,596 log 28652 23656 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:47:48,598 log 28652 6612 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:47:48,599 log 28652 27356 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:47:48,600 log 28652 27388 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:47:48,601 log 28652 5128 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:47:48,601 basehttp 28652 29320 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,601 basehttp 28652 6612 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,602 basehttp 28652 27356 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,602 basehttp 28652 23656 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,602 basehttp 28652 27388 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,603 log 28652 29320 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:47:48,604 basehttp 28652 5128 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:48,605 basehttp 28652 29320 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,256 exceptions 28652 23652 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:47:50,260 log 28652 23652 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:47:50,260 basehttp 28652 23652 "GET /api/auth/login/ HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:47:50,275 log 28652 23652 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:47:50,275 basehttp 28652 23652 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,276 log 28652 29580 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:47:50,276 log 28652 14560 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:47:50,277 log 28652 28660 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:47:50,277 log 28652 288 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:47:50,278 log 28652 26168 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:47:50,279 log 28652 23652 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:47:50,280 basehttp 28652 14560 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,280 basehttp 28652 29580 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,280 basehttp 28652 288 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,280 basehttp 28652 28660 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,281 basehttp 28652 26168 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,281 basehttp 28652 23652 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,282 log 28652 14560 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:47:50,282 log 28652 29580 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:47:50,283 log 28652 28660 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:47:50,284 log 28652 288 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:47:50,284 basehttp 28652 14560 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,285 basehttp 28652 29580 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,285 basehttp 28652 28660 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,286 basehttp 28652 288 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,289 log 28652 29320 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:47:50,289 log 28652 27388 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:47:50,290 log 28652 5128 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:47:50,290 basehttp 28652 29320 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,290 basehttp 28652 27388 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,291 basehttp 28652 5128 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,292 log 28652 23656 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:47:50,293 log 28652 6612 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:47:50,293 log 28652 27356 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:47:50,294 log 28652 27388 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:47:50,294 basehttp 28652 6612 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,294 basehttp 28652 23656 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,295 basehttp 28652 27388 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:50,295 basehttp 28652 27356 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:54,601 log 28652 27356 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:47:54,602 log 28652 27388 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:47:54,603 log 28652 6612 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:47:54,603 log 28652 5128 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:47:54,604 log 28652 29320 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:47:54,605 log 28652 23656 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:47:54,605 basehttp 28652 27356 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:54,606 basehttp 28652 27388 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:54,606 basehttp 28652 6612 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:54,606 basehttp 28652 29320 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:54,606 basehttp 28652 5128 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:54,607 basehttp 28652 23656 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:47:54,608 log 28652 27356 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:47:54,610 basehttp 28652 27356 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,209 log 28652 288 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:48:01,210 basehttp 28652 288 "POST /api/auth/login/ HTTP/1.1" 400 5720
+WARNING 2026-04-21 13:48:01,222 log 28652 288 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:01,223 log 28652 14560 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:01,224 log 28652 29580 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:01,225 log 28652 26168 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:01,225 log 28652 23652 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:01,226 log 28652 28660 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:01,227 basehttp 28652 14560 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,227 basehttp 28652 288 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,227 basehttp 28652 26168 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,227 basehttp 28652 29580 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,228 basehttp 28652 28660 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,228 basehttp 28652 23652 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,229 log 28652 288 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:01,229 log 28652 26168 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:01,230 log 28652 14560 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:01,231 log 28652 29580 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:01,231 log 28652 28660 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:01,233 basehttp 28652 288 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,233 basehttp 28652 14560 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,233 basehttp 28652 26168 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,233 basehttp 28652 29580 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,234 log 28652 27356 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:01,234 basehttp 28652 28660 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,234 log 28652 23656 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:01,235 basehttp 28652 27356 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,235 basehttp 28652 23656 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,236 log 28652 29320 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:01,237 log 28652 5128 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:01,237 basehttp 28652 29320 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,237 basehttp 28652 5128 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,240 log 28652 27388 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:01,240 log 28652 6612 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:01,241 log 28652 23656 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:01,242 basehttp 28652 27388 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,242 basehttp 28652 6612 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:01,242 basehttp 28652 23656 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,378 exceptions 28652 29580 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:48:10,381 log 28652 29580 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:48:10,381 basehttp 28652 29580 "GET /api/auth/login/? HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:48:10,395 log 28652 29580 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:10,396 log 28652 14560 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:10,397 log 28652 288 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:10,397 log 28652 23652 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:10,398 log 28652 28660 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:10,398 log 28652 26168 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:10,400 basehttp 28652 14560 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,400 basehttp 28652 29580 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,400 basehttp 28652 288 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,401 basehttp 28652 23652 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,401 basehttp 28652 28660 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,401 basehttp 28652 26168 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,402 log 28652 29580 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:10,402 log 28652 14560 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:10,403 log 28652 288 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:10,404 log 28652 23652 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:10,404 log 28652 27388 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:10,404 log 28652 6612 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:10,405 log 28652 28660 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:10,407 basehttp 28652 29580 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,407 basehttp 28652 288 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,407 basehttp 28652 14560 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,407 basehttp 28652 23652 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,407 basehttp 28652 27388 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,408 basehttp 28652 6612 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,408 basehttp 28652 28660 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,411 log 28652 6612 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:10,411 log 28652 27388 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:10,412 log 28652 5128 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:10,413 log 28652 23656 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:10,413 log 28652 29320 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:10,414 basehttp 28652 6612 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,415 basehttp 28652 5128 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,415 basehttp 28652 27388 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,415 basehttp 28652 23656 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:10,415 basehttp 28652 29320 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,398 exceptions 28652 28660 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:48:11,402 log 28652 28660 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:48:11,403 basehttp 28652 28660 "GET /api/auth/login/? HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:48:11,414 log 28652 28660 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:11,415 basehttp 28652 28660 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,416 log 28652 23652 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:11,417 log 28652 14560 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:11,417 log 28652 28660 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:11,418 log 28652 29580 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:11,419 log 28652 288 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:11,419 log 28652 26168 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:11,420 basehttp 28652 23652 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,420 basehttp 28652 14560 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,421 basehttp 28652 28660 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,421 basehttp 28652 288 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,421 basehttp 28652 26168 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,421 basehttp 28652 29580 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,422 log 28652 23652 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:11,423 log 28652 14560 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:11,424 log 28652 28660 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:11,425 log 28652 29320 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:11,425 log 28652 29580 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:11,426 log 28652 23656 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:11,426 log 28652 5128 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:11,427 basehttp 28652 23652 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,428 basehttp 28652 14560 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,428 basehttp 28652 28660 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,428 basehttp 28652 29320 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,429 basehttp 28652 23656 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,429 basehttp 28652 29580 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,430 basehttp 28652 5128 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,432 log 28652 5128 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:11,433 log 28652 23656 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:11,434 log 28652 27388 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:11,434 log 28652 29320 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:11,435 basehttp 28652 5128 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,435 basehttp 28652 29320 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,435 basehttp 28652 23656 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,436 basehttp 28652 27388 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,706 exceptions 28652 29580 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:48:11,709 log 28652 29580 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:48:11,710 basehttp 28652 29580 "GET /api/auth/login/? HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:48:11,721 log 28652 28660 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:11,722 log 28652 14560 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:11,723 log 28652 23652 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:11,724 log 28652 26168 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:11,724 log 28652 29580 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:11,725 log 28652 288 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:11,725 basehttp 28652 28660 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,726 basehttp 28652 14560 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,726 basehttp 28652 23652 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,726 basehttp 28652 26168 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,726 basehttp 28652 29580 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,728 log 28652 28660 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:11,728 log 28652 14560 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:11,729 basehttp 28652 288 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,729 log 28652 23652 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:11,730 log 28652 26168 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:11,731 log 28652 29580 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:11,732 log 28652 27388 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:11,732 log 28652 29320 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:11,732 basehttp 28652 28660 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,733 basehttp 28652 14560 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,734 basehttp 28652 23652 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,734 basehttp 28652 26168 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,734 basehttp 28652 29580 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,734 basehttp 28652 27388 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,735 basehttp 28652 29320 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,736 log 28652 23656 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:11,736 log 28652 27388 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:11,737 basehttp 28652 23656 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,737 basehttp 28652 27388 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,737 log 28652 29320 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:11,738 log 28652 5128 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:11,740 log 28652 6612 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:11,740 basehttp 28652 29320 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,740 basehttp 28652 5128 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,741 basehttp 28652 6612 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,920 exceptions 28652 29580 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:48:11,924 log 28652 29580 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:48:11,925 basehttp 28652 29580 "GET /api/auth/login/? HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:48:11,936 log 28652 29580 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:11,938 log 28652 288 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:11,938 log 28652 23652 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:11,939 log 28652 14560 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:11,939 log 28652 28660 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:11,940 log 28652 26168 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:11,941 basehttp 28652 29580 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,941 basehttp 28652 288 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,942 basehttp 28652 23652 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,942 basehttp 28652 14560 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,942 basehttp 28652 28660 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,942 basehttp 28652 26168 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+INFO 2026-04-21 13:48:11,942 basehttp 28652 23652 - Broken pipe from ('127.0.0.1', 64031)
+WARNING 2026-04-21 13:48:11,943 log 28652 29580 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:11,944 log 28652 288 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:11,945 log 28652 28660 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:11,945 log 28652 6612 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:11,946 log 28652 14560 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:11,947 log 28652 26168 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:11,948 log 28652 5128 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:11,948 basehttp 28652 29580 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,949 basehttp 28652 6612 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,949 basehttp 28652 288 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,949 basehttp 28652 28660 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,950 basehttp 28652 14560 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,950 basehttp 28652 26168 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,950 basehttp 28652 5128 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,952 log 28652 6612 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:11,953 basehttp 28652 6612 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,954 log 28652 29320 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:11,954 log 28652 27388 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:11,955 log 28652 5128 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:11,955 log 28652 23656 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:11,956 basehttp 28652 29320 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,956 basehttp 28652 27388 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,956 basehttp 28652 5128 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:11,957 basehttp 28652 23656 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,170 exceptions 28652 26168 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:48:12,174 log 28652 26168 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:48:12,174 basehttp 28652 26168 "GET /api/auth/login/? HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:48:12,187 log 28652 26168 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:12,188 log 28652 28660 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:12,188 log 28652 29580 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:12,189 log 28652 288 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:12,189 log 28652 14560 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:12,190 basehttp 28652 26168 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,190 basehttp 28652 28660 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,190 basehttp 28652 288 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,191 basehttp 28652 29580 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,191 basehttp 28652 14560 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,192 log 28652 28660 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:12,193 log 28652 26168 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:12,194 log 28652 29580 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:12,195 log 28652 288 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:12,196 log 28652 14560 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:12,196 log 28652 23656 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:12,197 basehttp 28652 28660 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,198 basehttp 28652 26168 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,198 basehttp 28652 29580 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,198 basehttp 28652 288 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,198 basehttp 28652 14560 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,198 basehttp 28652 23656 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,199 log 28652 28660 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:12,199 basehttp 28652 28660 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,201 log 28652 5128 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:12,202 log 28652 23656 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:12,203 log 28652 27388 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:12,203 log 28652 29320 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:12,204 log 28652 6612 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:12,204 log 28652 27356 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:12,205 basehttp 28652 5128 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,206 basehttp 28652 23656 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,206 basehttp 28652 29320 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,206 basehttp 28652 27388 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,207 basehttp 28652 6612 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:12,207 basehttp 28652 27356 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,816 log 28652 28660 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:48:13,816 basehttp 28652 28660 "POST /api/auth/login/ HTTP/1.1" 400 5720
+WARNING 2026-04-21 13:48:13,830 log 28652 28660 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:13,831 log 28652 288 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:13,831 log 28652 29580 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:13,832 log 28652 2244 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:13,833 log 28652 26168 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:13,833 log 28652 14560 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:13,834 basehttp 28652 28660 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,834 basehttp 28652 29580 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,834 basehttp 28652 288 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,835 basehttp 28652 2244 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,835 basehttp 28652 26168 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,835 basehttp 28652 14560 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,836 log 28652 28660 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:13,836 log 28652 29580 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:13,837 log 28652 288 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:13,838 log 28652 2244 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:13,839 log 28652 6612 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:13,839 log 28652 27356 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:13,840 log 28652 26168 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:13,841 basehttp 28652 28660 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,841 basehttp 28652 29580 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,841 basehttp 28652 288 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,841 basehttp 28652 2244 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,842 basehttp 28652 26168 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,842 basehttp 28652 27356 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,842 basehttp 28652 6612 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,846 log 28652 27356 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:13,846 log 28652 6612 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:13,847 basehttp 28652 27356 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,847 log 28652 29320 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:13,848 log 28652 5128 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:13,848 basehttp 28652 6612 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,848 log 28652 27388 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:13,849 basehttp 28652 5128 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,849 basehttp 28652 29320 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:13,850 basehttp 28652 27388 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,819 log 28652 26168 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:48:16,819 basehttp 28652 26168 "POST /api/auth/login/ HTTP/1.1" 400 5720
+WARNING 2026-04-21 13:48:16,833 log 28652 26168 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:16,834 log 28652 2244 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:16,835 log 28652 288 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:16,836 log 28652 14560 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:16,837 log 28652 29580 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:16,838 log 28652 28660 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:16,838 basehttp 28652 2244 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,838 basehttp 28652 288 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,839 basehttp 28652 26168 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,839 basehttp 28652 14560 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,839 basehttp 28652 29580 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,839 basehttp 28652 28660 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,841 log 28652 2244 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:16,841 basehttp 28652 2244 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,842 log 28652 288 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:16,842 log 28652 28660 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:16,843 log 28652 26168 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:16,843 log 28652 14560 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:16,844 basehttp 28652 288 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,845 log 28652 27388 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:16,846 log 28652 29320 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:16,847 log 28652 5128 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:16,848 log 28652 27356 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:16,848 basehttp 28652 14560 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,848 basehttp 28652 28660 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,848 basehttp 28652 26168 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,848 basehttp 28652 27388 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,849 basehttp 28652 29320 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,849 basehttp 28652 5128 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,849 basehttp 28652 27356 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,851 log 28652 27388 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:16,851 log 28652 29320 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:16,852 log 28652 27356 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:16,853 basehttp 28652 27388 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,853 basehttp 28652 29320 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:16,853 basehttp 28652 27356 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,607 log 28652 26168 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:48:17,608 basehttp 28652 26168 "POST /api/auth/login/ HTTP/1.1" 400 5720
+WARNING 2026-04-21 13:48:17,620 log 28652 26168 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:17,621 log 28652 28660 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:17,621 log 28652 29580 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:17,622 log 28652 14560 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:17,623 log 28652 288 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:17,623 log 28652 2244 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:17,624 basehttp 28652 26168 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,624 basehttp 28652 28660 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,624 basehttp 28652 29580 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,625 basehttp 28652 14560 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,625 basehttp 28652 288 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,626 basehttp 28652 2244 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,627 log 28652 28660 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:17,627 log 28652 26168 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:17,628 basehttp 28652 28660 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,628 basehttp 28652 26168 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,629 log 28652 14560 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:17,629 log 28652 2244 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:17,630 log 28652 29580 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:17,631 basehttp 28652 14560 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,631 basehttp 28652 2244 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,631 basehttp 28652 29580 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,632 log 28652 27356 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:17,633 log 28652 27388 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:17,633 log 28652 29320 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:17,634 log 28652 23656 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:17,634 log 28652 5128 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:17,635 log 28652 6612 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:17,636 basehttp 28652 27356 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,636 basehttp 28652 27388 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,636 basehttp 28652 23656 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,636 basehttp 28652 29320 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,637 basehttp 28652 5128 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,637 basehttp 28652 6612 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,640 log 28652 29320 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:17,640 basehttp 28652 29320 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,932 log 28652 2244 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:48:17,932 basehttp 28652 2244 "POST /api/auth/login/ HTTP/1.1" 400 5720
+WARNING 2026-04-21 13:48:17,945 log 28652 2244 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:17,945 log 28652 14560 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:17,946 log 28652 28660 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:17,947 log 28652 29580 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:17,947 log 28652 288 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:17,948 log 28652 26168 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:17,948 basehttp 28652 2244 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,948 basehttp 28652 14560 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,949 basehttp 28652 28660 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,949 basehttp 28652 29580 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,949 basehttp 28652 26168 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,949 basehttp 28652 288 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,950 log 28652 2244 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:17,951 log 28652 28660 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:17,952 log 28652 288 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:17,952 log 28652 14560 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:17,953 log 28652 6612 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:17,954 log 28652 29580 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:17,954 log 28652 29320 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:17,955 basehttp 28652 2244 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,955 basehttp 28652 14560 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,956 basehttp 28652 288 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,956 basehttp 28652 28660 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,956 basehttp 28652 6612 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,957 basehttp 28652 29320 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,957 basehttp 28652 29580 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,960 log 28652 29320 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:17,961 log 28652 6612 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:17,961 log 28652 23656 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:17,962 log 28652 5128 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:17,963 log 28652 27388 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:17,963 basehttp 28652 6612 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,964 basehttp 28652 29320 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,964 basehttp 28652 23656 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,965 basehttp 28652 5128 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:17,965 basehttp 28652 27388 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,177 log 28652 29580 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:48:18,178 basehttp 28652 29580 "POST /api/auth/login/ HTTP/1.1" 400 5720
+WARNING 2026-04-21 13:48:18,189 log 28652 29580 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:18,189 log 28652 26168 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:18,190 log 28652 28660 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:18,190 log 28652 14560 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:18,191 log 28652 288 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:18,193 basehttp 28652 29580 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,192 log 28652 2244 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:18,193 basehttp 28652 26168 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,193 basehttp 28652 28660 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,193 basehttp 28652 14560 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,194 basehttp 28652 288 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,194 basehttp 28652 2244 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,194 log 28652 29580 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:18,195 log 28652 26168 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:18,196 log 28652 28660 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:18,196 log 28652 14560 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:18,197 log 28652 2244 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:18,198 log 28652 27388 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:18,199 log 28652 5128 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:18,199 basehttp 28652 29580 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,200 basehttp 28652 26168 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,200 basehttp 28652 28660 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,200 basehttp 28652 2244 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,200 basehttp 28652 14560 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,201 basehttp 28652 27388 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,201 basehttp 28652 5128 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,203 log 28652 5128 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:18,203 basehttp 28652 5128 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,204 log 28652 27388 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:18,205 log 28652 23656 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:18,205 log 28652 29320 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:18,206 log 28652 5128 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:18,206 basehttp 28652 27388 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,207 basehttp 28652 29320 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,207 basehttp 28652 23656 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:18,207 basehttp 28652 5128 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,409 log 28652 2244 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:48:26,410 basehttp 28652 2244 "POST /api/auth/login/ HTTP/1.1" 400 5720
+WARNING 2026-04-21 13:48:26,422 log 28652 14560 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:26,423 log 28652 2244 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:26,424 log 28652 28660 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:26,425 log 28652 29580 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:26,426 log 28652 26168 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:26,427 log 28652 288 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:26,427 basehttp 28652 14560 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,427 basehttp 28652 28660 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,428 basehttp 28652 29580 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,428 basehttp 28652 2244 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,428 basehttp 28652 26168 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,428 basehttp 28652 288 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,430 log 28652 28660 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:26,431 log 28652 2244 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:26,431 log 28652 14560 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:26,432 log 28652 26168 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:26,432 log 28652 29580 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:26,433 log 28652 5128 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:26,434 log 28652 29320 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:26,435 basehttp 28652 28660 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,435 basehttp 28652 2244 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,435 basehttp 28652 14560 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,435 basehttp 28652 26168 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,435 basehttp 28652 29320 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,436 basehttp 28652 5128 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,436 basehttp 28652 29580 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,438 log 28652 29320 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:26,438 log 28652 5128 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:26,439 log 28652 23656 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:26,439 log 28652 27388 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:26,440 log 28652 6612 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:26,440 basehttp 28652 5128 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,441 basehttp 28652 29320 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,441 basehttp 28652 23656 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,442 basehttp 28652 27388 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:26,442 basehttp 28652 6612 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,164 exceptions 28652 29580 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:48:28,167 log 28652 29580 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:48:28,168 basehttp 28652 29580 "GET /api/auth/login/ HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:48:28,182 log 28652 29580 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:28,182 basehttp 28652 29580 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,184 log 28652 14560 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:28,184 log 28652 26168 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:28,185 log 28652 2244 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:28,186 log 28652 28660 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:28,186 log 28652 288 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:28,187 log 28652 29580 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:28,187 basehttp 28652 14560 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,187 basehttp 28652 26168 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,188 basehttp 28652 28660 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,188 basehttp 28652 2244 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,188 basehttp 28652 288 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,188 basehttp 28652 29580 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,189 log 28652 14560 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:28,190 log 28652 26168 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:28,190 log 28652 2244 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:28,191 log 28652 28660 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:28,193 log 28652 27388 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:28,193 log 28652 6612 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:28,194 log 28652 23656 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:28,194 basehttp 28652 14560 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,195 basehttp 28652 26168 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,195 basehttp 28652 28660 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,195 basehttp 28652 2244 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,195 basehttp 28652 27388 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,195 basehttp 28652 6612 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,196 basehttp 28652 23656 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,197 log 28652 6612 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:28,198 basehttp 28652 6612 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,200 log 28652 23656 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:28,201 log 28652 6612 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:28,201 log 28652 27388 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:28,202 basehttp 28652 23656 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,202 basehttp 28652 6612 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,202 basehttp 28652 27388 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,867 exceptions 28652 28660 Request Error: LoginView - 405 - Método "GET" no permitido.
+WARNING 2026-04-21 13:48:28,871 log 28652 28660 Method Not Allowed: /api/auth/login/
+WARNING 2026-04-21 13:48:28,871 basehttp 28652 28660 "GET /api/auth/login/? HTTP/1.1" 405 5562
+WARNING 2026-04-21 13:48:28,885 log 28652 28660 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-04-21 13:48:28,886 log 28652 2244 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-04-21 13:48:28,887 log 28652 14560 Not Found: /static/rest_framework/css/default.css
+WARNING 2026-04-21 13:48:28,888 log 28652 29580 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:28,888 log 28652 26168 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-04-21 13:48:28,889 log 28652 288 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:28,889 basehttp 28652 14560 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,890 basehttp 28652 2244 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,890 basehttp 28652 28660 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,890 basehttp 28652 29580 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,890 basehttp 28652 26168 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,891 basehttp 28652 288 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,893 log 28652 28660 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:28,893 log 28652 2244 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:28,894 log 28652 14560 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:28,895 log 28652 29580 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:28,895 log 28652 26168 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:28,896 log 28652 27388 Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-04-21 13:48:28,897 log 28652 6612 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-04-21 13:48:28,897 basehttp 28652 28660 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,898 basehttp 28652 2244 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,898 basehttp 28652 14560 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,898 basehttp 28652 29580 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,898 basehttp 28652 26168 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,899 basehttp 28652 6612 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,899 basehttp 28652 27388 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,902 log 28652 6612 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-04-21 13:48:28,903 log 28652 27388 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-04-21 13:48:28,903 log 28652 23656 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-04-21 13:48:28,904 log 28652 5128 Not Found: /static/rest_framework/js/default.js
+WARNING 2026-04-21 13:48:28,904 log 28652 29320 Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-04-21 13:48:28,905 basehttp 28652 6612 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,905 basehttp 28652 27388 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,905 basehttp 28652 23656 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,906 basehttp 28652 5128 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:48:28,906 basehttp 28652 29320 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 404 179
+WARNING 2026-04-21 13:51:29,389 log 28652 28560 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:51:29,390 basehttp 28652 28560 "POST /api/auth/login/ HTTP/1.1" 400 85
+INFO 2026-04-21 13:53:00,062 autoreload 28652 28656 C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\config\settings.py changed, reloading.
+INFO 2026-04-21 13:53:00,830 autoreload 11440 19256 Watching for file changes with StatReloader
+INFO 2026-04-21 13:53:31,184 autoreload 23656 5128 Watching for file changes with StatReloader
+INFO 2026-04-21 13:54:15,218 basehttp 23656 10036 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+WARNING 2026-04-21 13:54:15,227 log 23656 10036 Bad Request: /api/auth/login/
+WARNING 2026-04-21 13:54:15,228 basehttp 23656 10036 "POST /api/auth/login/ HTTP/1.1" 400 85
+ERROR 2026-04-21 13:56:52,763 exceptions 23656 27448 Unhandled Exception: Can't instantiate abstract class DjangoUserRepository with abstract method get_by_id
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 16, in post
+    user_repo = DjangoUserRepository()
+                ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Can't instantiate abstract class DjangoUserRepository with abstract method get_by_id
+ERROR 2026-04-21 13:56:52,832 log 23656 27448 Internal Server Error: /api/auth/login/
+ERROR 2026-04-21 13:56:52,833 basehttp 23656 27448 "POST /api/auth/login/ HTTP/1.1" 500 111
+INFO 2026-04-21 13:57:44,280 autoreload 23656 5128 C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py changed, reloading.
+INFO 2026-04-21 13:57:44,822 autoreload 8352 28684 Watching for file changes with StatReloader
+INFO 2026-04-21 13:57:56,022 autoreload 27820 23456 Watching for file changes with StatReloader
+INFO 2026-04-21 13:58:32,557 services 27820 29852 LOGIN: jefe@hospital.com access granted.
+INFO 2026-04-21 13:58:32,559 basehttp 27820 29852 "POST /api/auth/login/ HTTP/1.1" 200 311
+WARNING 2026-04-21 13:59:53,962 log 27820 20612 Not Found: /api
+WARNING 2026-04-21 13:59:53,962 basehttp 27820 20612 "GET /api HTTP/1.1" 404 179
+INFO 2026-04-21 14:01:24,884 basehttp 27820 29852 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:01:24,890 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:01:54,920 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:02:07,122 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:02:24,927 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:02:37,925 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:02:54,925 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:03:07,922 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:03:24,890 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:03:37,126 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:03:54,921 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:04:24,926 basehttp 27820 29852 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:04:40,110 basehttp 27820 29852 "OPTIONS /api/work-orders/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:04:40,111 basehttp 27820 4528 "OPTIONS /api/work-orders/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:04:40,124 basehttp 27820 29852 "GET /api/work-orders/ HTTP/1.1" 200 203
+INFO 2026-04-21 14:04:40,138 basehttp 27820 29852 "GET /api/work-orders/ HTTP/1.1" 200 203
+INFO 2026-04-21 14:04:41,919 basehttp 27820 4528 "OPTIONS /api/equipment/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:04:41,920 basehttp 27820 29852 "OPTIONS /api/equipment/ HTTP/1.1" 200 0
+ERROR 2026-04-21 14:04:41,925 exceptions 27820 29852 Unhandled Exception: type object 'MedicalEquipment' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 83, in get
+    equipments = repo.list_all()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py", line 139, in list_all
+    return [self._to_domain(e) for e in MedicalEquipment.objects.all()]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MedicalEquipment' has no attribute 'objects'
+ERROR 2026-04-21 14:04:41,927 log 27820 29852 Internal Server Error: /api/equipment/
+ERROR 2026-04-21 14:04:41,928 basehttp 27820 29852 "GET /api/equipment/ HTTP/1.1" 500 111
+ERROR 2026-04-21 14:04:41,931 exceptions 27820 29852 Unhandled Exception: type object 'MedicalEquipment' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 83, in get
+    equipments = repo.list_all()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py", line 139, in list_all
+    return [self._to_domain(e) for e in MedicalEquipment.objects.all()]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MedicalEquipment' has no attribute 'objects'
+ERROR 2026-04-21 14:04:41,932 log 27820 29852 Internal Server Error: /api/equipment/
+ERROR 2026-04-21 14:04:41,932 basehttp 27820 29852 "GET /api/equipment/ HTTP/1.1" 500 111
+INFO 2026-04-21 14:04:43,832 basehttp 27820 4528 "OPTIONS /api/reports/average-repair-time/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:04:43,832 basehttp 27820 29852 "OPTIONS /api/reports/orders-by-status/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:04:43,833 basehttp 27820 14308 "OPTIONS /api/reports/top-failing-equipment/ HTTP/1.1" 200 0
+WARNING 2026-04-21 14:04:43,836 exceptions 27820 14308 Request Error: ReportStatusView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:04:43,836 log 27820 14308 Unauthorized: /api/reports/orders-by-status/
+INFO 2026-04-21 14:04:43,837 basehttp 27820 4528 "OPTIONS /api/reports/engineer-performance/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:04:43,837 basehttp 27820 30312 "OPTIONS /api/reports/engineer-performance/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:04:43,837 basehttp 27820 29852 "OPTIONS /api/reports/top-failing-equipment/ HTTP/1.1" 200 0
+INFO 2026-04-21 14:04:43,837 basehttp 27820 25136 "OPTIONS /api/reports/orders-by-status/ HTTP/1.1" 200 0
+WARNING 2026-04-21 14:04:43,839 exceptions 27820 4528 Request Error: ReportRepairTimeView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:04:43,841 exceptions 27820 30312 Request Error: ReportTopFailuresView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:04:43,842 exceptions 27820 25136 Request Error: ReportEngineerPerformanceView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:04:43,842 basehttp 27820 14308 "GET /api/reports/orders-by-status/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:04:43,842 log 27820 4528 Unauthorized: /api/reports/average-repair-time/
+INFO 2026-04-21 14:04:43,842 basehttp 27820 29640 "OPTIONS /api/reports/average-repair-time/ HTTP/1.1" 200 0
+WARNING 2026-04-21 14:04:43,843 exceptions 27820 29852 Request Error: ReportStatusView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:04:43,844 log 27820 30312 Unauthorized: /api/reports/top-failing-equipment/
+WARNING 2026-04-21 14:04:43,844 log 27820 25136 Unauthorized: /api/reports/engineer-performance/
+WARNING 2026-04-21 14:04:43,845 basehttp 27820 4528 "GET /api/reports/average-repair-time/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:04:43,846 log 27820 29852 Unauthorized: /api/reports/orders-by-status/
+WARNING 2026-04-21 14:04:43,846 basehttp 27820 30312 "GET /api/reports/top-failing-equipment/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:04:43,846 basehttp 27820 25136 "GET /api/reports/engineer-performance/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:04:43,847 exceptions 27820 4528 Request Error: ReportRepairTimeView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:04:43,848 exceptions 27820 30312 Request Error: ReportTopFailuresView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:04:43,849 exceptions 27820 25136 Request Error: ReportEngineerPerformanceView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:04:43,849 basehttp 27820 29852 "GET /api/reports/orders-by-status/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:04:43,849 log 27820 4528 Unauthorized: /api/reports/average-repair-time/
+WARNING 2026-04-21 14:04:43,850 log 27820 30312 Unauthorized: /api/reports/top-failing-equipment/
+WARNING 2026-04-21 14:04:43,850 log 27820 25136 Unauthorized: /api/reports/engineer-performance/
+WARNING 2026-04-21 14:04:43,851 basehttp 27820 4528 "GET /api/reports/average-repair-time/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:04:43,851 basehttp 27820 30312 "GET /api/reports/top-failing-equipment/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:04:43,851 basehttp 27820 25136 "GET /api/reports/engineer-performance/ HTTP/1.1" 401 172
+INFO 2026-04-21 14:05:23,706 basehttp 27820 30312 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:05:53,922 basehttp 27820 30312 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:06:23,919 basehttp 27820 30312 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:06:53,929 basehttp 27820 30312 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:07:05,823 basehttp 27820 30312 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:07:26,916 basehttp 27820 30312 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:07:47,453 basehttp 27820 30312 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:07:48,921 basehttp 27820 30312 "GET /api/work-orders/ HTTP/1.1" 200 203
+INFO 2026-04-21 14:07:48,933 basehttp 27820 30312 "GET /api/work-orders/ HTTP/1.1" 200 203
+ERROR 2026-04-21 14:07:51,916 exceptions 27820 30312 Unhandled Exception: type object 'MedicalEquipment' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 83, in get
+    equipments = repo.list_all()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py", line 139, in list_all
+    return [self._to_domain(e) for e in MedicalEquipment.objects.all()]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MedicalEquipment' has no attribute 'objects'
+ERROR 2026-04-21 14:07:51,917 log 27820 30312 Internal Server Error: /api/equipment/
+ERROR 2026-04-21 14:07:51,917 basehttp 27820 30312 "GET /api/equipment/ HTTP/1.1" 500 111
+ERROR 2026-04-21 14:07:51,922 exceptions 27820 30312 Unhandled Exception: type object 'MedicalEquipment' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 83, in get
+    equipments = repo.list_all()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py", line 139, in list_all
+    return [self._to_domain(e) for e in MedicalEquipment.objects.all()]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MedicalEquipment' has no attribute 'objects'
+ERROR 2026-04-21 14:07:51,923 log 27820 30312 Internal Server Error: /api/equipment/
+ERROR 2026-04-21 14:07:51,923 basehttp 27820 30312 "GET /api/equipment/ HTTP/1.1" 500 111
+WARNING 2026-04-21 14:07:54,463 exceptions 27820 25136 Request Error: ReportRepairTimeView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:07:54,463 exceptions 27820 30312 Request Error: ReportStatusView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:07:54,464 exceptions 27820 29852 Request Error: ReportEngineerPerformanceView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:07:54,464 exceptions 27820 4528 Request Error: ReportTopFailuresView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:07:54,465 log 27820 25136 Unauthorized: /api/reports/average-repair-time/
+WARNING 2026-04-21 14:07:54,465 log 27820 30312 Unauthorized: /api/reports/orders-by-status/
+WARNING 2026-04-21 14:07:54,465 log 27820 29852 Unauthorized: /api/reports/engineer-performance/
+WARNING 2026-04-21 14:07:54,466 log 27820 4528 Unauthorized: /api/reports/top-failing-equipment/
+WARNING 2026-04-21 14:07:54,466 basehttp 27820 25136 "GET /api/reports/average-repair-time/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:07:54,467 basehttp 27820 30312 "GET /api/reports/orders-by-status/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:07:54,467 basehttp 27820 29852 "GET /api/reports/engineer-performance/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:07:54,467 basehttp 27820 4528 "GET /api/reports/top-failing-equipment/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:07:54,469 exceptions 27820 29852 Request Error: ReportStatusView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:07:54,470 exceptions 27820 30312 Request Error: ReportRepairTimeView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:07:54,470 exceptions 27820 4528 Request Error: ReportTopFailuresView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:07:54,471 exceptions 27820 25136 Request Error: ReportEngineerPerformanceView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:07:54,471 log 27820 29852 Unauthorized: /api/reports/orders-by-status/
+WARNING 2026-04-21 14:07:54,472 log 27820 30312 Unauthorized: /api/reports/average-repair-time/
+WARNING 2026-04-21 14:07:54,472 log 27820 4528 Unauthorized: /api/reports/top-failing-equipment/
+WARNING 2026-04-21 14:07:54,472 log 27820 25136 Unauthorized: /api/reports/engineer-performance/
+WARNING 2026-04-21 14:07:54,473 basehttp 27820 29852 "GET /api/reports/orders-by-status/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:07:54,473 basehttp 27820 4528 "GET /api/reports/top-failing-equipment/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:07:54,473 basehttp 27820 25136 "GET /api/reports/engineer-performance/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:07:54,473 basehttp 27820 30312 "GET /api/reports/average-repair-time/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:08:02,835 exceptions 27820 25136 Request Error: ReportStatusView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:08:02,837 exceptions 27820 4528 Request Error: ReportRepairTimeView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:08:02,837 exceptions 27820 29852 Request Error: ReportTopFailuresView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:08:02,838 exceptions 27820 29640 Request Error: ReportEngineerPerformanceView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:08:02,839 log 27820 25136 Unauthorized: /api/reports/orders-by-status/
+WARNING 2026-04-21 14:08:02,839 log 27820 4528 Unauthorized: /api/reports/average-repair-time/
+WARNING 2026-04-21 14:08:02,840 log 27820 29852 Unauthorized: /api/reports/top-failing-equipment/
+WARNING 2026-04-21 14:08:02,841 log 27820 29640 Unauthorized: /api/reports/engineer-performance/
+INFO 2026-04-21 14:08:02,842 basehttp 27820 30312 "GET /api/notifications/ HTTP/1.1" 200 2
+WARNING 2026-04-21 14:08:02,843 basehttp 27820 4528 "GET /api/reports/average-repair-time/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:08:02,843 basehttp 27820 25136 "GET /api/reports/orders-by-status/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:08:02,843 basehttp 27820 29852 "GET /api/reports/top-failing-equipment/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:08:02,844 basehttp 27820 29640 "GET /api/reports/engineer-performance/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:08:03,510 exceptions 27820 4528 Request Error: ReportRepairTimeView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:08:03,513 exceptions 27820 29852 Request Error: ReportStatusView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:08:03,514 exceptions 27820 30312 Request Error: ReportTopFailuresView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:08:03,515 exceptions 27820 25136 Request Error: ReportEngineerPerformanceView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:08:03,516 log 27820 4528 Unauthorized: /api/reports/average-repair-time/
+WARNING 2026-04-21 14:08:03,516 log 27820 29852 Unauthorized: /api/reports/orders-by-status/
+WARNING 2026-04-21 14:08:03,516 log 27820 30312 Unauthorized: /api/reports/top-failing-equipment/
+WARNING 2026-04-21 14:08:03,517 log 27820 25136 Unauthorized: /api/reports/engineer-performance/
+WARNING 2026-04-21 14:08:03,518 basehttp 27820 4528 "GET /api/reports/average-repair-time/ HTTP/1.1" 401 172
+INFO 2026-04-21 14:08:03,519 basehttp 27820 29640 "GET /api/notifications/ HTTP/1.1" 200 2
+WARNING 2026-04-21 14:08:03,519 basehttp 27820 30312 "GET /api/reports/top-failing-equipment/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:08:03,519 basehttp 27820 29852 "GET /api/reports/orders-by-status/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:08:03,519 basehttp 27820 25136 "GET /api/reports/engineer-performance/ HTTP/1.1" 401 172
+INFO 2026-04-21 14:08:33,922 basehttp 27820 29640 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:09:03,932 basehttp 27820 29640 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:09:33,935 basehttp 27820 29640 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:09:37,090 basehttp 27820 29640 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:09:38,907 basehttp 27820 29640 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:09:39,708 basehttp 27820 29640 "GET /api/work-orders/ HTTP/1.1" 200 203
+INFO 2026-04-21 14:09:39,721 basehttp 27820 29640 "GET /api/work-orders/ HTTP/1.1" 200 203
+ERROR 2026-04-21 14:09:42,446 exceptions 27820 29640 Unhandled Exception: type object 'MedicalEquipment' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 83, in get
+    equipments = repo.list_all()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py", line 139, in list_all
+    return [self._to_domain(e) for e in MedicalEquipment.objects.all()]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MedicalEquipment' has no attribute 'objects'
+ERROR 2026-04-21 14:09:42,447 log 27820 29640 Internal Server Error: /api/equipment/
+ERROR 2026-04-21 14:09:42,447 basehttp 27820 29640 "GET /api/equipment/ HTTP/1.1" 500 111
+ERROR 2026-04-21 14:09:42,451 exceptions 27820 29640 Unhandled Exception: type object 'MedicalEquipment' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 83, in get
+    equipments = repo.list_all()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py", line 139, in list_all
+    return [self._to_domain(e) for e in MedicalEquipment.objects.all()]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MedicalEquipment' has no attribute 'objects'
+ERROR 2026-04-21 14:09:42,452 log 27820 29640 Internal Server Error: /api/equipment/
+ERROR 2026-04-21 14:09:42,453 basehttp 27820 29640 "GET /api/equipment/ HTTP/1.1" 500 111
+WARNING 2026-04-21 14:09:44,209 exceptions 27820 29640 Request Error: ReportStatusView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:09:44,210 exceptions 27820 30312 Request Error: ReportRepairTimeView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:09:44,211 exceptions 27820 25136 Request Error: ReportTopFailuresView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:09:44,212 exceptions 27820 29852 Request Error: ReportEngineerPerformanceView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:09:44,212 log 27820 29640 Unauthorized: /api/reports/orders-by-status/
+WARNING 2026-04-21 14:09:44,213 log 27820 30312 Unauthorized: /api/reports/average-repair-time/
+WARNING 2026-04-21 14:09:44,213 log 27820 25136 Unauthorized: /api/reports/top-failing-equipment/
+WARNING 2026-04-21 14:09:44,213 log 27820 29852 Unauthorized: /api/reports/engineer-performance/
+WARNING 2026-04-21 14:09:44,215 basehttp 27820 30312 "GET /api/reports/average-repair-time/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:09:44,215 basehttp 27820 25136 "GET /api/reports/top-failing-equipment/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:09:44,215 basehttp 27820 29640 "GET /api/reports/orders-by-status/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:09:44,215 basehttp 27820 29852 "GET /api/reports/engineer-performance/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:09:44,217 exceptions 27820 29640 Request Error: ReportStatusView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:09:44,217 exceptions 27820 25136 Request Error: ReportTopFailuresView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:09:44,218 exceptions 27820 30312 Request Error: ReportEngineerPerformanceView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:09:44,219 exceptions 27820 4528 Request Error: ReportRepairTimeView - 401 - {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]}
+WARNING 2026-04-21 14:09:44,219 log 27820 29640 Unauthorized: /api/reports/orders-by-status/
+WARNING 2026-04-21 14:09:44,219 log 27820 25136 Unauthorized: /api/reports/top-failing-equipment/
+WARNING 2026-04-21 14:09:44,220 log 27820 30312 Unauthorized: /api/reports/engineer-performance/
+WARNING 2026-04-21 14:09:44,220 log 27820 4528 Unauthorized: /api/reports/average-repair-time/
+WARNING 2026-04-21 14:09:44,220 basehttp 27820 29640 "GET /api/reports/orders-by-status/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:09:44,221 basehttp 27820 25136 "GET /api/reports/top-failing-equipment/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:09:44,221 basehttp 27820 4528 "GET /api/reports/average-repair-time/ HTTP/1.1" 401 172
+WARNING 2026-04-21 14:09:44,221 basehttp 27820 30312 "GET /api/reports/engineer-performance/ HTTP/1.1" 401 172
+ERROR 2026-04-21 14:09:45,598 exceptions 27820 4528 Unhandled Exception: type object 'MedicalEquipment' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 83, in get
+    equipments = repo.list_all()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py", line 139, in list_all
+    return [self._to_domain(e) for e in MedicalEquipment.objects.all()]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MedicalEquipment' has no attribute 'objects'
+ERROR 2026-04-21 14:09:45,599 log 27820 4528 Internal Server Error: /api/equipment/
+ERROR 2026-04-21 14:09:45,600 basehttp 27820 4528 "GET /api/equipment/ HTTP/1.1" 500 111
+ERROR 2026-04-21 14:09:45,605 exceptions 27820 4528 Unhandled Exception: type object 'MedicalEquipment' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\interfaces\views.py", line 83, in get
+    equipments = repo.list_all()
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py", line 139, in list_all
+    return [self._to_domain(e) for e in MedicalEquipment.objects.all()]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MedicalEquipment' has no attribute 'objects'
+ERROR 2026-04-21 14:09:45,606 log 27820 4528 Internal Server Error: /api/equipment/
+ERROR 2026-04-21 14:09:45,606 basehttp 27820 4528 "GET /api/equipment/ HTTP/1.1" 500 111
+INFO 2026-04-21 14:10:03,928 basehttp 27820 4528 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:10:08,929 basehttp 27820 4528 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:10:17,295 autoreload 7200 3132 Watching for file changes with StatReloader
+INFO 2026-04-21 14:10:33,929 basehttp 27820 4528 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:10:38,923 basehttp 27820 4528 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:10:54,699 autoreload 7200 3132 C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py changed, reloading.
+INFO 2026-04-21 14:10:55,098 autoreload 27820 23456 C:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\infrastructure\repositories.py changed, reloading.
+INFO 2026-04-21 14:10:55,241 autoreload 23220 22292 Watching for file changes with StatReloader
+INFO 2026-04-21 14:10:55,652 autoreload 28148 27728 Watching for file changes with StatReloader
+INFO 2026-04-21 14:11:03,941 basehttp 23220 22548 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:11:08,921 basehttp 23220 22548 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2026-04-21 14:11:22,418 autoreload 23600 6704 Watching for file changes with StatReloader
