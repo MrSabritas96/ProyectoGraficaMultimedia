@@ -11,7 +11,7 @@ factory = APIRequestFactory()
 view = LoginView.as_view()
 
 data = {
-    "email": "admin@hospital.com",
+    "email": "admin@gmail.com",
     "unique_code": "ADM001",
     "password": "password123"
 }

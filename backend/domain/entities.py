@@ -29,11 +29,39 @@ class EquipmentStatus(Enum):
 class MedicalEquipment:
     id: Optional[int]
     nombre: str
-    codigo_interno: str
+    codigo_interno: Optional[str]
     area: str
     estado: EquipmentStatus
-    descripcion: str
+    descripcion: Optional[str]
     fecha_registro: datetime = datetime.now()
+    
+    # Expanded Fields from Excel
+    marca: Optional[str] = None
+    modelo: Optional[str] = None
+    numero_serie: Optional[str] = None
+    fecha_adquisicion: Optional[datetime] = None
+    proveedor: Optional[str] = None
+    costo: Optional[float] = None
+    vida_util: Optional[str] = None
+    requisitos_energia: Optional[str] = None
+    dimensiones: Optional[str] = None
+    peso: Optional[str] = None
+    materiales: Optional[str] = None
+    frecuencia_mantenimiento: Optional[int] = None
+    proximo_mantenimiento: Optional[datetime] = None
+    caracteristicas: Optional[str] = None
+    condiciones_uso: Optional[str] = None
+    certificaciones: Optional[str] = None
+    mantenimiento_preventivo: Optional[str] = None
+    mantenimiento_correctivo: Optional[str] = None
+    mantenimiento_predictivo: Optional[str] = None
+    historial: Optional[str] = None
+    observaciones: Optional[str] = None
+    
+    # AI and 3D Model Additions
+    salud_equipo: Optional[int] = None
+    ruta_modelo_3d: Optional[str] = None
+    analisis_ia: Optional[str] = None
 
 @dataclass
 class Permission:
@@ -68,6 +96,18 @@ class WorkOrder:
     fecha_creacion: datetime = datetime.now()
     fecha_inicio: Optional[datetime] = None
     fecha_fin: Optional[datetime] = None
+    
+    # 3D Coordinates
+    coordenada_3d_x: Optional[float] = None
+    coordenada_3d_y: Optional[float] = None
+    coordenada_3d_z: Optional[float] = None
+    
+    # Detailed report data
+    costo_reparacion: Optional[float] = None
+    repuestos_usados: Optional[list] = None
+    problema_real_encontrado: Optional[str] = None
+    acciones_realizadas: Optional[str] = None
+    recomendaciones: Optional[str] = None
 @dataclass
 class AuditLog:
     id: Optional[int]

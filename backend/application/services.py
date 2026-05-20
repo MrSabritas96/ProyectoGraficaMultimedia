@@ -72,7 +72,7 @@ class WorkOrderUseCase:
         self.audit = AuditUseCase(audit_repo)
         self.notifier = NotificationUseCase(notification_repo)
 
-    def create_order(self, tipo: str, descripcion: str, equipo: MedicalEquipment, creado_por: User) -> WorkOrder:
+    def create_order(self, tipo: str, descripcion: str, equipo: MedicalEquipment, creado_por: User, ingeniero: Optional[User] = None) -> WorkOrder:
         order = WorkOrder(
             id=None,
             tipo_mantenimiento=MaintenanceType(tipo),
@@ -80,10 +80,18 @@ class WorkOrderUseCase:
             descripcion=descripcion,
             equipo=equipo,
             creado_por=creado_por,
-            ingeniero_asignado=None
+            ingeniero_asignado=ingeniero
         )
         saved = self.work_order_repository.save(order)
         self.audit.record_event(creado_por, "CREACIÓN", "ORDEN", saved.id, f"Orden de tipo {tipo} creada")
+        
+        if ingeniero:
+            self.notifier.notify_user(
+                ingeniero, 
+                "Nueva Orden Asignada", 
+                f"Se te ha asignado la orden #{saved.id}: {descripcion}"
+            )
+            
         return saved
 
     def assign_engineer(self, order_id: int, engineer: User) -> Optional[WorkOrder]:

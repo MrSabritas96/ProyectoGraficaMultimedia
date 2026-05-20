@@ -38,6 +38,9 @@ class DjangoUserRepository(UserRepository):
     def list_all(self) -> List[User]:
         return [self._to_domain(u) for u in CustomUser.objects.all()]
 
+    def list_by_role(self, role_name: str) -> List[User]:
+        return [self._to_domain(u) for u in CustomUser.objects.filter(role__name=role_name)]
+
     def verify_password(self, user: User, password: str) -> bool:
         try:
             django_user = CustomUser.objects.get(id=user.id)
@@ -65,7 +68,15 @@ class DjangoWorkOrderRepository(WorkOrderRepository):
             ingeniero_asignado=ingeniero,
             fecha_creacion=django_order.fecha_creacion,
             fecha_inicio=django_order.fecha_inicio,
-            fecha_fin=django_order.fecha_fin
+            fecha_fin=django_order.fecha_fin,
+            coordenada_3d_x=django_order.coordenada_3d_x,
+            coordenada_3d_y=django_order.coordenada_3d_y,
+            coordenada_3d_z=django_order.coordenada_3d_z,
+            costo_reparacion=float(django_order.costo_reparacion) if django_order.costo_reparacion else None,
+            repuestos_usados=django_order.repuestos_usados,
+            problema_real_encontrado=django_order.problema_real_encontrado,
+            acciones_realizadas=django_order.acciones_realizadas,
+            recomendaciones=django_order.recomendaciones
         )
 
     def save(self, work_order: WorkOrder) -> WorkOrder:
@@ -112,7 +123,31 @@ class DjangoMedicalEquipmentRepository(MedicalEquipmentRepository):
             area=django_eq.area,
             estado=EquipmentStatus(django_eq.estado),
             descripcion=django_eq.descripcion,
-            fecha_registro=django_eq.fecha_registro
+            fecha_registro=django_eq.fecha_registro,
+            marca=django_eq.marca,
+            modelo=django_eq.modelo,
+            numero_serie=django_eq.numero_serie,
+            fecha_adquisicion=django_eq.fecha_adquisicion,
+            proveedor=django_eq.proveedor,
+            costo=django_eq.costo,
+            vida_util=django_eq.vida_util,
+            requisitos_energia=django_eq.requisitos_energia,
+            dimensiones=django_eq.dimensiones,
+            peso=django_eq.peso,
+            materiales=django_eq.materiales,
+            frecuencia_mantenimiento=django_eq.frecuencia_mantenimiento,
+            proximo_mantenimiento=django_eq.proximo_mantenimiento,
+            caracteristicas=django_eq.caracteristicas,
+            condiciones_uso=django_eq.condiciones_uso,
+            certificaciones=django_eq.certificaciones,
+            mantenimiento_preventivo=django_eq.mantenimiento_preventivo,
+            mantenimiento_correctivo=django_eq.mantenimiento_correctivo,
+            mantenimiento_predictivo=django_eq.mantenimiento_predictivo,
+            historial=django_eq.historial,
+            observaciones=django_eq.observaciones,
+            salud_equipo=django_eq.salud_equipo,
+            ruta_modelo_3d=django_eq.ruta_modelo_3d,
+            analisis_ia=getattr(django_eq, 'analisis_ia', None)
         )
 
     def save(self, equipment: MedicalEquipment) -> MedicalEquipment:
@@ -123,7 +158,30 @@ class DjangoMedicalEquipmentRepository(MedicalEquipmentRepository):
                 'codigo_interno': equipment.codigo_interno,
                 'area': equipment.area,
                 'estado': equipment.estado.value,
-                'descripcion': equipment.descripcion
+                'descripcion': equipment.descripcion,
+                'marca': equipment.marca,
+                'modelo': equipment.modelo,
+                'numero_serie': equipment.numero_serie,
+                'fecha_adquisicion': equipment.fecha_adquisicion,
+                'proveedor': equipment.proveedor,
+                'costo': equipment.costo,
+                'vida_util': equipment.vida_util,
+                'requisitos_energia': equipment.requisitos_energia,
+                'dimensiones': equipment.dimensiones,
+                'peso': equipment.peso,
+                'materiales': equipment.materiales,
+                'frecuencia_mantenimiento': equipment.frecuencia_mantenimiento,
+                'proximo_mantenimiento': equipment.proximo_mantenimiento,
+                'caracteristicas': equipment.caracteristicas,
+                'condiciones_uso': equipment.condiciones_uso,
+                'certificaciones': equipment.certificaciones,
+                'mantenimiento_preventivo': equipment.mantenimiento_preventivo,
+                'mantenimiento_correctivo': equipment.mantenimiento_correctivo,
+                'mantenimiento_predictivo': equipment.mantenimiento_predictivo,
+                'historial': equipment.historial,
+                'observaciones': equipment.observaciones,
+                'salud_equipo': equipment.salud_equipo,
+                'ruta_modelo_3d': equipment.ruta_modelo_3d
             }
         )
         return self._to_domain(django_eq)
