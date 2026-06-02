@@ -3,8 +3,8 @@ import { Calendar as CalendarIcon, Clock, UserCircle2 } from 'lucide-react';
 import { MaintenanceEvent, Engineer } from '@/shared/data/mockDatabase';
 
 interface BigCalendarProps {
-  orders: MaintenanceEvent[];
-  engineers: Engineer[];
+  orders: any[];
+  engineers: any[];
   currentMonth?: number; // 0-11
   currentYear?: number;
 }

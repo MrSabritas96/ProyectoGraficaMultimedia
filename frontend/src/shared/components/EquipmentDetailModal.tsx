@@ -160,21 +160,20 @@ export const EquipmentDetailModal: React.FC<EquipmentDetailModalProps> = ({ item
                     }} 
                   />
                 ) : (
-                  <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 z-20">
-                    <motion.div 
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      className="w-32 h-32 border-2 border-dashed border-[#a855f7]/50 rounded-full flex items-center justify-center mb-6 relative"
-                    >
-                      <div className="absolute inset-0 border-2 border-[#a855f7]/20 rounded-full animate-ping" />
-                      <AlertCircle className="w-12 h-12 text-[#a855f7]/50" />
-                    </motion.div>
-                    <h3 className="text-2xl font-bold text-slate-300 uppercase tracking-widest" style={{ fontFamily: 'var(--font-oswald)' }}>
-                      Modelo 3D aún no cargado
-                    </h3>
-                    <p className="text-slate-500 mt-2 max-w-md text-xs">
-                      El gemelo digital de este equipo no se encuentra disponible en la base de datos.
-                    </p>
+                  <div className="absolute inset-0 w-full h-full">
+                    <img 
+                      src={item.foto ? `http://localhost:8000${item.foto}` : (item.image || 'https://images.unsplash.com/photo-1519494026892-80bbd2d6f0d8?auto=format&fit=crop&w=1000&q=80')} 
+                      alt={item.nombre} 
+                      className="w-full h-full object-cover opacity-60" 
+                    />
+                    <div className="absolute inset-0 bg-[#0a001a]/85 backdrop-blur-[2px] flex flex-col items-center justify-center text-center p-8 z-20">
+                      <h3 className="text-2xl font-bold text-white uppercase tracking-widest font-oswald" style={{ fontFamily: 'var(--font-oswald)' }}>
+                        Modelo 3D No Disponible
+                      </h3>
+                      <p className="text-slate-400 mt-2 max-w-md text-xs font-medium">
+                        Visualizando imagen 2D de referencia. El gemelo digital de este equipo no está cargado en el sistema.
+                      </p>
+                    </div>
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#020005] via-transparent to-transparent pointer-events-none" />

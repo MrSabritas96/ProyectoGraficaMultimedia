@@ -7,6 +7,7 @@ import { Badge } from '@/shared/components/Badge';
 import { Activity, Wrench, ShieldAlert, ChevronLeft, ChevronRight, Loader2, ArrowRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import Cookies from 'js-cookie';
+import { Carousel3D, Carousel3DItem } from '@/shared/components/Carousel3D';
 
 export default function EngineerDashboard() {
   const router = useRouter();
@@ -37,8 +38,8 @@ export default function EngineerDashboard() {
       setIsLoading(true);
       try {
         const url = activeUnidad 
-          ? `http://localhost:8000/api/equipment/?unidad=${encodeURIComponent(activeUnidad)}&page=${page}&limit=12`
-          : `http://localhost:8000/api/equipment/?page=1&limit=12`;
+          ? `http://localhost:8000/api/equipment/?unidad=${encodeURIComponent(activeUnidad)}&page=${page}&limit=8`
+          : `http://localhost:8000/api/equipment/?page=${page}&limit=8`;
           
         const token = Cookies.get('token');
         
@@ -157,70 +158,74 @@ export default function EngineerDashboard() {
         </div>
       </div>
 
-      {/* Grid */}
+      {/* Carousel */}
       {isLoading ? (
         <div className="flex items-center justify-center min-h-[400px]">
           <Loader2 className="w-12 h-12 text-[#10b981] animate-spin" />
         </div>
       ) : (
-        <motion.div 
-          initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
-        >
-          {equipmentList.map((eq) => (
-            <Card key={eq.id} className="p-0 overflow-hidden group border border-slate-800 hover:border-[#10b981]/50 transition-colors bg-[#050010] flex flex-col h-full cursor-pointer" onClick={() => router.push(`/dashboard/engineer/equipment/${eq.id}`)}>
-              <div className="relative h-48 bg-slate-900 w-full overflow-hidden">
-                <img 
-                  src={'https://images.unsplash.com/photo-1519494026892-80bbd2d6f0d8?auto=format&fit=crop&w=600&q=80'} 
-                  alt={eq.nombre} 
-                  className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#050010] to-transparent" />
-                
-                <div className="absolute top-4 left-4">
-                  <Badge variant={eq.estado === 'Activo' ? 'success' : eq.estado === 'En Mantenimiento' ? 'warning' : 'error'}>
-                    {eq.estado}
-                  </Badge>
-                </div>
-                {eq.falla_activa && (
-                  <div className="absolute top-4 right-4">
-                    <Badge variant="error" pulse>ALERTA</Badge>
-                  </div>
-                )}
+        <div className="w-full relative min-h-[500px]">
+          {(() => {
+            const getImageUrlForArea = (area: string) => {
+              const map: Record<string, string> = {
+                'QUIROFANO': 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1000&q=80',
+                'IMAGENOLOGIA': 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1000&q=80',
+                'CARDIOLOGIA': 'https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1000&q=80',
+                'TERAPIA INTENSIVA': 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1000&q=80',
+                'EMERGENCIAS': 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=1000&q=80',
+                'LABORATORIO': 'https://images.unsplash.com/photo-1579154204601-e1588bc41f47?auto=format&fit=crop&w=1000&q=80'
+              };
+              return map[area?.toUpperCase()] || 'https://images.unsplash.com/photo-1519494026892-80bbd2d6f0d8?auto=format&fit=crop&w=1000&q=80';
+            };
+
+            const carouselItems = equipmentList.map((eq: any) => ({
+              id: eq.id,
+              image: eq.foto ? `http://localhost:8000${eq.foto}` : getImageUrlForArea(eq.area),
+              title: eq.nombre,
+              description: eq.modelo ? `Modelo: ${eq.modelo} | Marca: ${eq.marca || 'N/A'}` : (eq.descripcion || 'Sin descripción disponible'),
+              status: eq.estado === 'Activo' ? 'Active' : eq.estado === 'En Mantenimiento' ? 'Warning' : 'Critical',
+              ...eq
+            }));
+
+            return carouselItems.length > 0 ? (
+              <Carousel3D 
+                items={carouselItems} 
+                onViewEquipment={(item) => router.push(`/dashboard/engineer/equipment/${item.id}`)} 
+                autoPlayInterval={6000} 
+              />
+            ) : (
+              <div className="flex items-center justify-center w-full h-[400px] text-slate-500 font-medium tracking-widest uppercase">
+                No hay equipos registrados en esta unidad.
               </div>
-              <div className="p-5 flex-1 flex flex-col relative z-10 -mt-8">
-                <h3 className="text-lg font-bold text-white mb-1 line-clamp-1">{eq.nombre}</h3>
-                <p className="text-[10px] text-slate-400 font-mono mb-4">{eq.codigo_interno}</p>
-                <div className="flex-1">
-                  <p className="text-xs text-slate-400 line-clamp-2">{eq.descripcion}</p>
-                </div>
-                <div className="mt-4 pt-4 border-t border-slate-800 flex items-center justify-between">
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-widest">{eq.marca || 'GENERIC'}</span>
-                  <div className="text-[#10b981] flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest group-hover:translate-x-1 transition-transform">
-                    Revisar <ArrowRight className="w-3 h-3" />
-                  </div>
-                </div>
-              </div>
-            </Card>
-          ))}
-        </motion.div>
+            );
+          })()}
+        </div>
       )}
 
-      {/* Pagination */}
+      {/* Carousel Pagination Controls */}
       {!isLoading && totalPages > 1 && (
-        <div className="flex items-center justify-center gap-4 mt-8">
+        <div className="flex items-center justify-center gap-6 relative z-10 -mt-10 mb-10">
           <button 
-            onClick={() => setPage(p => p - 1)}
+            onClick={() => setPage(p => Math.max(p - 1, 1))}
             disabled={page === 1}
-            className="w-10 h-10 rounded-xl bg-[#110121] border border-slate-700 flex items-center justify-center text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-[#10b981] hover:border-[#10b981] transition-all"
+            className="w-10 h-10 rounded-full flex items-center justify-center bg-[#110121] border border-[#a855f7]/30 text-[#a855f7] hover:bg-[#a855f7]/20 hover:text-white transition-all disabled:opacity-30 disabled:hover:bg-[#110121]"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
-          <span className="text-slate-400 text-sm font-bold">Página {page} de {totalPages}</span>
+          
+          <div className="flex items-center gap-2">
+            {Array.from({ length: totalPages }).map((_, i) => (
+              <span 
+                key={i} 
+                className={`transition-all duration-300 rounded-full ${page === i + 1 ? 'w-8 h-2 bg-[#a855f7] shadow-[0_0_10px_rgba(168,85,247,0.8)]' : 'w-2 h-2 bg-slate-700'}`} 
+              />
+            ))}
+          </div>
+
           <button 
-            onClick={() => setPage(p => p + 1)}
+            onClick={() => setPage(p => Math.min(p + 1, totalPages))}
             disabled={page === totalPages}
-            className="w-10 h-10 rounded-xl bg-[#110121] border border-slate-700 flex items-center justify-center text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-[#10b981] hover:border-[#10b981] transition-all"
+            className="w-10 h-10 rounded-full flex items-center justify-center bg-[#110121] border border-[#a855f7]/30 text-[#a855f7] hover:bg-[#a855f7]/20 hover:text-white transition-all disabled:opacity-30 disabled:hover:bg-[#110121]"
           >
             <ChevronRight className="w-5 h-5" />
           </button>

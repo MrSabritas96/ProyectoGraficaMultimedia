@@ -75,3 +75,8 @@ urlpatterns += [
     path('incidents/assigned/', MyAssignedIncidentListView.as_view(), name='assigned-incidents'),
     path('incidents/<int:pk>/accept/', IncidentAcceptView.as_view(), name='incident-accept'),
 ]
+
+from .views import TQAAutomationView
+urlpatterns += [
+    path('admin/tqa/automation/', TQAAutomationView.as_view(), name='admin-tqa-automation'),
+]

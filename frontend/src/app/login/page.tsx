@@ -401,12 +401,13 @@ export default function LoginPage() {
           className={`w-full lg:w-[600px] flex-shrink-0 pt-8 lg:pt-0 relative transition-all duration-500 ${tutorialStep > 0 ? 'z-50' : 'z-10'}`}
         >
           <form onSubmit={handleSubmit} className="space-y-12">
-            
-            {/* 2-Column Row for Email and Code */}
+                        {/* 2-Column Row for Email and Code */}
             <div className="flex flex-col sm:flex-row gap-8 w-full">
               <div className={`flex-1 relative transition-all duration-500 ${tutorialStep > 0 && tutorialStep !== 1 ? 'opacity-30 pointer-events-none scale-95' : 'scale-100'}`}>
                 <div className={`transition-all duration-500 rounded-xl ${tutorialStep === 1 ? 'ring-2 ring-[#a855f7] ring-offset-4 ring-offset-[#020005] bg-[#020005] p-2 -m-2 shadow-[0_0_30px_rgba(168,85,247,0.3)]' : ''}`}>
                   <Input 
+                    id="email"
+                    name="email"
                     type="email"
                     placeholder="Correo Institucional"
                     value={formData.email}
@@ -421,6 +422,8 @@ export default function LoginPage() {
               <div className={`flex-1 relative transition-all duration-500 ${tutorialStep > 0 && tutorialStep !== 2 ? 'opacity-30 pointer-events-none scale-95' : 'scale-100'}`}>
                 <div className={`transition-all duration-500 rounded-xl ${tutorialStep === 2 ? 'ring-2 ring-[#a855f7] ring-offset-4 ring-offset-[#020005] bg-[#020005] p-2 -m-2 shadow-[0_0_30px_rgba(168,85,247,0.3)]' : ''}`}>
                   <Input 
+                    id="codigo_unico"
+                    name="codigo_unico"
                     type="text"
                     placeholder="Código Único"
                     value={formData.codigo_unico}
@@ -437,6 +440,8 @@ export default function LoginPage() {
             <div className={`relative w-full pb-2 transition-all duration-500 ${tutorialStep > 0 && tutorialStep !== 3 ? 'opacity-30 pointer-events-none scale-95' : 'scale-100'}`}>
               <div className={`transition-all duration-500 rounded-xl ${tutorialStep === 3 ? 'ring-2 ring-[#a855f7] ring-offset-4 ring-offset-[#020005] bg-[#020005] p-2 -m-2 shadow-[0_0_30px_rgba(168,85,247,0.3)]' : ''}`}>
                 <Input 
+                  id="password"
+                  name="password"
                   type={showPassword ? "text" : "password"}
                   placeholder="Contraseña"
                   value={formData.password}
@@ -460,6 +465,8 @@ export default function LoginPage() {
               {/* Button under password */}
               <div className="flex justify-start mt-10 relative">
                 <button 
+                  id="btn-login"
+                  name="btn-login"
                   type="submit" 
                   disabled={loading}
                   onMouseEnter={() => setIsButtonHovered(true)}
@@ -503,7 +510,7 @@ export default function LoginPage() {
           <div className="mt-16 pt-8 flex gap-4 opacity-30 hover:opacity-100 transition-opacity justify-start">
             {[
               { label: 'Doctor', email: 'fguzman@gmail.com', codigo_unico: 'DOC-00034' },
-              { label: 'Secretario', email: 'secretario@gmail.com', codigo_unico: 'SEC-00001' },
+              { label: 'Secretario', email: 'secretario@gmail.com', codigo_unico: 'SEC-00044' },
               { label: 'Jefe', email: 'jefe@gmail.com', codigo_unico: 'JEF-SIB-10023' },
               { label: 'Ingeniero', email: 'ingeniero@gmail.com', codigo_unico: 'ING-SIB-54321' },
               { label: 'Admin', email: 'admin@gmail.com', codigo_unico: 'ADM-00005' }

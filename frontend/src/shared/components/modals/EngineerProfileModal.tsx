@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, User as UserIcon, Star, Clock, CheckCircle2, TrendingUp, Award } from 'lucide-react';
+import { X, User as UserIcon, Star, Clock, CheckCircle2, TrendingUp, Award, Wrench } from 'lucide-react';
 import { Badge } from '../Badge';
 import { ProgressBar } from '../ProgressBar';
 import { getEngineerByName } from '../../data/mockDatabase';

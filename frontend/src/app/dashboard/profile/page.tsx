@@ -125,7 +125,7 @@ export default function ProfilePage() {
               </label>
             </div>
 
-            <Badge variant="primary" className="mb-3 uppercase tracking-widest px-4 py-1.5 text-xs">{profile?.role_name || 'Cargando...'}</Badge>
+            <Badge variant="info" className="mb-3 uppercase tracking-widest px-4 py-1.5 text-xs">{profile?.role_name || 'Cargando...'}</Badge>
             <h3 className="text-2xl font-bold text-white text-center tracking-tight">{profile?.first_name} {profile?.last_name}</h3>
             <p className="text-sm text-[#d8b4fe] font-mono mt-2 bg-[#050010] px-3 py-1 rounded-full border border-[#a855f7]/30">{profile?.codigo_unico}</p>
           </div>

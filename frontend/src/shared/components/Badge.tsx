@@ -8,9 +8,10 @@ interface BadgeProps {
   children: React.ReactNode;
   variant?: BadgeVariant;
   pulse?: boolean;
+  className?: string;
 }
 
-export const Badge: React.FC<BadgeProps> = ({ children, variant = 'default', pulse = false }) => {
+export const Badge: React.FC<BadgeProps> = ({ children, variant = 'default', pulse = false, className = '' }) => {
   const baseClasses = "inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-widest";
   
   const variantClasses = {
@@ -30,7 +31,7 @@ export const Badge: React.FC<BadgeProps> = ({ children, variant = 'default', pul
   };
 
   return (
-    <span className={`${baseClasses} ${variantClasses[variant]} ${pulse ? `animate-pulse ${pulseClasses[variant]}` : ''}`}>
+    <span className={`${baseClasses} ${variantClasses[variant]} ${pulse ? `animate-pulse ${pulseClasses[variant]}` : ''} ${className}`}>
       {pulse && (
         <span className={`w-1.5 h-1.5 rounded-full mr-1.5 ${
           variant === 'success' ? 'bg-emerald-500' :

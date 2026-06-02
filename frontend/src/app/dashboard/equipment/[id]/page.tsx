@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export default function EquipmentDetailPage() {
   const { id } = useParams();
-  const [history, setHistory] = useState([]);
+  const [history, setHistory] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

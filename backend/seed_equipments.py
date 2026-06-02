@@ -42,7 +42,8 @@ def normalize_unidad(u):
     return u
 
 def main():
-    equipos_path = r'c:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\exel\EQUIPOS_MEDICOS_ESTRUCTURADO_COMPLETO.xlsx'
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    equipos_path = os.path.join(base_dir, 'exel', 'EQUIPOS_MEDICOS_ESTRUCTURADO_COMPLETO.xlsx')
     df = pd.read_excel(equipos_path)
     
     MedicalEquipment.objects.all().delete()

@@ -58,6 +58,7 @@ const navItems: NavItem[] = [
   
   // ADMIN - SEGURIDAD Y CONTROL
   { label: 'Seguridad', href: '/dashboard/admin/security', icon: ShieldCheck, roles: ['Administrador'], category: 'Seguridad y Control' },
+  { label: 'Garantía Calidad TQA', href: '/dashboard/admin/tqa', icon: ShieldCheck, roles: ['Administrador'], category: 'Seguridad y Control' },
   
   // ADMIN - OPERACIONES
   { label: 'Automatizaciones', href: '/dashboard/admin/automations', icon: Zap, roles: ['Administrador'], category: 'Operaciones' },

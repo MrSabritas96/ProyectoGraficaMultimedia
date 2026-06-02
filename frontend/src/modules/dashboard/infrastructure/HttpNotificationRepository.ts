@@ -20,18 +20,32 @@ export class HttpNotificationRepository {
   }
 
   async getMyNotifications(): Promise<Notification[]> {
-    const response = await fetch(this.apiUrl, {
-      headers: this.getHeaders(),
-    });
-    if (!response.ok) throw new Error('Error al obtener notificaciones');
-    return response.json();
+    try {
+      const response = await fetch(this.apiUrl, {
+        headers: this.getHeaders(),
+      });
+      if (response.status === 401) {
+        // Return empty notifications list gracefully on token expiration
+        return [];
+      }
+      if (!response.ok) throw new Error('Error al obtener notificaciones');
+      return response.json();
+    } catch (err) {
+      console.warn('Failed to fetch notifications gracefully:', err);
+      return [];
+    }
   }
 
   async markAsRead(id: number): Promise<void> {
-    const response = await fetch(`${this.apiUrl}${id}/read/`, {
-      method: 'PATCH',
-      headers: this.getHeaders(),
-    });
-    if (!response.ok) throw new Error('Error al marcar como leída');
+    try {
+      const response = await fetch(`${this.apiUrl}${id}/read/`, {
+        method: 'PATCH',
+        headers: this.getHeaders(),
+      });
+      if (response.status === 401) return;
+      if (!response.ok) throw new Error('Error al marcar como leída');
+    } catch (err) {
+      console.warn('Failed to mark notification as read gracefully:', err);
+    }
   }
 }

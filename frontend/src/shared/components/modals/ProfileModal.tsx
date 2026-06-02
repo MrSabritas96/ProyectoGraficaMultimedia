@@ -133,7 +133,7 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) =
                 </div>
               )}
 
-              <Badge variant="primary" className="mb-2 uppercase tracking-widest">{profile?.role_name || 'Cargando...'}</Badge>
+              <Badge variant="info" className="mb-2 uppercase tracking-widest">{profile?.role_name || 'Cargando...'}</Badge>
               <h3 className="text-xl font-bold text-white text-center">{profile?.first_name} {profile?.last_name}</h3>
               <p className="text-xs text-[#d8b4fe] font-mono mt-1">{profile?.codigo_unico}</p>
             </div>

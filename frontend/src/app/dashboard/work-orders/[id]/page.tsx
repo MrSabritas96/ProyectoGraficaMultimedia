@@ -13,7 +13,7 @@ export default function WorkOrderDetailPage({ params }: { params: any }) {
   const router = useRouter();
   
   const [order, setOrder] = useState<any>(null);
-  const [history, setHistory] = useState([]);
+  const [history, setHistory] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [newLog, setNewLog] = useState('');
   const [isFinishing, setIsFinishing] = useState(false);
@@ -32,7 +32,7 @@ export default function WorkOrderDetailPage({ params }: { params: any }) {
 
   useEffect(() => {
     setUserId(Number(Cookies.get('user_id')));
-    setUserRole(Cookies.get('role'));
+    setUserRole(Cookies.get('role') || null);
     fetchData();
   }, [id]);
 

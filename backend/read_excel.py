@@ -1,8 +1,10 @@
 import pandas as pd
 
 def main():
-    equipos_path = r'c:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\exel\EQUIPOS_MEDICOS_ESTRUCTURADO_COMPLETO.xlsx'
-    fichas_path = r'c:\Users\CRISTIAN MANUEL\.gemini\antigravity\scratch\hospital_system\backend\exel\FICHA_TECNICA_EQUIPOS_MEDICOS.xlsx'
+    import os
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    equipos_path = os.path.join(base_dir, 'exel', 'EQUIPOS_MEDICOS_ESTRUCTURADO_COMPLETO.xlsx')
+    fichas_path = os.path.join(base_dir, 'exel', 'FICHA_TECNICA_EQUIPOS_MEDICOS.xlsx')
     
     print('=== EQUIPOS (first 10) ===')
     df1 = pd.read_excel(equipos_path)

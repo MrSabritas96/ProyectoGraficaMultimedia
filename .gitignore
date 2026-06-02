@@ -34,3 +34,11 @@ Thumbs.db
 # Misc
 media/
 exel/
+backend/exel/
+automatizacion_TQA/
+TQA/
+backend/TQA/
+backend/app.log
+*.log
+dotnet_test.txt
+laragon_test.txt

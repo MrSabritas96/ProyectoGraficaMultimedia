@@ -98,6 +98,7 @@ class MedicalEquipment(models.Model):
     # Extended DB Fields for AI Expert Analysis
     salud_equipo = models.IntegerField(null=True, blank=True, help_text="0-100")
     ruta_modelo_3d = models.CharField(max_length=255, null=True, blank=True)
+    foto = models.ImageField(upload_to='equipments/', null=True, blank=True)
     mantenimientos_previos = models.JSONField(default=list, blank=True)
 
     # Campos de falla en tiempo real (reportados por ingenieros)

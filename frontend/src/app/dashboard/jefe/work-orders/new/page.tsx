@@ -3,13 +3,14 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { Calendar, UserCircle, Wrench, Clock, Search, ArrowLeft, CheckCircle2, ChevronRight, ChevronLeft, MapPin, Activity, Stethoscope, BriefcaseMedical, AlertTriangle, PenTool, ShieldAlert } from 'lucide-react';
+import { Calendar, UserCircle, Wrench, Clock, Search, ArrowLeft, CheckCircle2, ChevronRight, ChevronLeft, MapPin, Activity, Stethoscope, BriefcaseMedical, AlertTriangle, PenTool, ShieldAlert, AlertCircle } from 'lucide-react';
 import { Card } from '@/shared/components/Card';
 import { Badge } from '@/shared/components/Badge';
 import { ProgressBar } from '@/shared/components/ProgressBar';
 import { Equipment3DViewer } from '@/shared/components/Equipment3DViewer';
 import { BigCalendar } from '@/shared/components/BigCalendar';
 import Cookies from 'js-cookie';
+import { Carousel3D, Carousel3DItem } from '@/shared/components/Carousel3D';
 
 export default function WorkOrderPage() {
   const router = useRouter();
@@ -31,6 +32,9 @@ export default function WorkOrderPage() {
 
   // Carousel state
   const [carouselOffset, setCarouselOffset] = useState(0);
+  const [unidades, setUnidades] = useState<string[]>([]);
+  const [activeUnidad, setActiveUnidad] = useState<string | null>(null);
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     fetchInitialData();
@@ -55,10 +59,17 @@ export default function WorkOrderPage() {
       // Fetch Equipment
       const eqRes = await fetch('http://localhost:8000/api/equipment/?limit=200', { headers });
       const eqData = await eqRes.json();
-      setAllEquipments(eqData.results || []);
+      const equipmentsList = eqData.results || [];
+      setAllEquipments(equipmentsList);
       
-      let targetEq = null;
-      let currentIncident = null;
+      const uniqueAreas = Array.from(new Set(equipmentsList.map((eq: any) => eq.area))).filter(Boolean) as string[];
+      setUnidades(uniqueAreas);
+      if (uniqueAreas.length > 0 && !activeUnidad) {
+        setActiveUnidad(uniqueAreas[0]);
+      }
+      
+      let targetEq: any = null;
+      let currentIncident: any = null;
 
       if (equipmentId) {
         targetEq = eqData.results.find((e: any) => e.id.toString() === equipmentId);
@@ -190,40 +201,120 @@ export default function WorkOrderPage() {
               type="text" 
               placeholder="Buscar por nombre, modelo, código o área..." 
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => { setSearchTerm(e.target.value); setPage(1); }}
               className="w-full bg-[#050010] border border-[#a855f7]/50 rounded-full py-5 pl-16 pr-6 text-lg text-white placeholder-slate-500 focus:outline-none focus:border-[#a855f7] focus:ring-2 focus:ring-[#a855f7] transition-all shadow-[0_0_20px_rgba(168,85,247,0.1)]"
             />
           </div>
+
+          {/* Area category tabs */}
+          {unidades.length > 0 && (
+            <div className="w-full relative mb-8">
+              <div className="flex items-center justify-between px-2 mb-3">
+                <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest">Áreas Hospitalarias</h3>
+                <span className="text-[10px] text-[#a855f7] font-bold uppercase tracking-widest flex items-center gap-1 bg-[#a855f7]/10 px-3 py-1 rounded-full border border-[#a855f7]/20">
+                  <ChevronLeft className="w-3 h-3" /> Desliza para ver más <ChevronRight className="w-3 h-3" />
+                </span>
+              </div>
+              <div className="w-full flex overflow-x-auto pb-4 gap-2 scrollbar-hide snap-x">
+                {unidades.map((unidad) => (
+                  <button
+                    key={unidad}
+                    type="button"
+                    onClick={() => { setActiveUnidad(unidad); setPage(1); }}
+                    className={`snap-start px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase whitespace-nowrap transition-all duration-300 ${
+                      activeUnidad === unidad 
+                        ? 'bg-gradient-to-r from-[#a855f7] to-[#7e22ce] text-white shadow-[0_0_20px_rgba(168,85,247,0.5)] border border-transparent' 
+                        : 'bg-[#110121] text-slate-400 border border-slate-800 hover:border-[#a855f7]/50 hover:text-white'
+                    }`}
+                  >
+                    {unidad}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 flex-1">
-            {allEquipments
-              .filter(eq => 
-                eq.nombre.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                (eq.codigo || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
-                eq.area.toLowerCase().includes(searchTerm.toLowerCase())
-              )
-              .slice(0, 16)
-              .map(eq => (
-                <div 
-                  key={eq.id} 
-                  onClick={() => router.push(`?equipmentId=${eq.id}`)}
-                  className="bg-[#050010] border border-slate-800 hover:border-[#a855f7] rounded-2xl p-6 cursor-pointer hover:shadow-[0_0_25px_rgba(168,85,247,0.3)] transition-all duration-300 group hover:-translate-y-1 relative overflow-hidden"
-                >
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-[#a855f7]/5 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2 group-hover:bg-[#a855f7]/20 transition-all" />
-                  <div className="flex justify-between items-start mb-6 relative z-10">
-                    <div className="w-12 h-12 rounded-full bg-[#110121] flex items-center justify-center border border-slate-700 group-hover:border-[#a855f7]/50 transition-colors">
-                      <Wrench className="w-6 h-6 text-[#a855f7]" />
+          {/* Carousel3D */}
+          <div className="w-full relative min-h-[500px] flex-1">
+            {(() => {
+              const filtered = allEquipments.filter(eq => {
+                const matchesSearch = eq.nombre.toLowerCase().includes(searchTerm.toLowerCase()) || 
+                                      (eq.codigo || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                      eq.area.toLowerCase().includes(searchTerm.toLowerCase());
+                const matchesArea = activeUnidad ? eq.area.toLowerCase() === activeUnidad.toLowerCase() : true;
+                return matchesSearch && matchesArea;
+              });
+
+              const limit = 8;
+              const totalPagesCount = Math.ceil(filtered.length / limit);
+              const paginated = filtered.slice((page - 1) * limit, page * limit);
+              
+              const getImageUrlForArea = (area: string) => {
+                const map: Record<string, string> = {
+                  'QUIROFANO': 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1000&q=80',
+                  'IMAGENOLOGIA': 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1000&q=80',
+                  'CARDIOLOGIA': 'https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1000&q=80',
+                  'TERAPIA INTENSIVA': 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1000&q=80',
+                  'EMERGENCIAS': 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=1000&q=80',
+                  'LABORATORIO': 'https://images.unsplash.com/photo-1579154204601-e1588bc41f47?auto=format&fit=crop&w=1000&q=80'
+                };
+                return map[area?.toUpperCase()] || 'https://images.unsplash.com/photo-1519494026892-80bbd2d6f0d8?auto=format&fit=crop&w=1000&q=80';
+              };
+
+              const carouselItems = paginated.map((eq: any) => ({
+                id: eq.id,
+                image: getImageUrlForArea(eq.area),
+                title: eq.nombre,
+                description: eq.modelo ? `Modelo: ${eq.modelo} | Marca: ${eq.marca || 'N/A'}` : (eq.descripcion || 'Sin descripción disponible'),
+                status: eq.estado === 'Activo' ? 'Active' : eq.estado === 'En Mantenimiento' ? 'Warning' : 'Critical',
+                ...eq
+              }));
+
+              return (
+                <>
+                  {carouselItems.length > 0 ? (
+                    <Carousel3D 
+                      items={carouselItems} 
+                      onViewEquipment={(item) => router.push(`?equipmentId=${item.id}`)} 
+                      autoPlayInterval={6000} 
+                    />
+                  ) : (
+                    <div className="flex items-center justify-center w-full h-[400px] text-slate-500 font-medium tracking-widest uppercase">
+                      No hay equipos registrados que coincidan con los filtros.
                     </div>
-                    <Badge variant={eq.estado === 'Activo' ? 'success' : 'warning'}>{eq.estado}</Badge>
-                  </div>
-                  <h3 className="text-xl font-bold text-white mb-2 line-clamp-1 relative z-10 group-hover:text-[#e9d5ff] transition-colors">{eq.nombre}</h3>
-                  <p className="text-xs text-slate-400 mb-5 relative z-10">{eq.codigo || eq.numero_serie || 'Código N/A'}</p>
-                  <div className="bg-[#110121] px-4 py-3 rounded-xl border border-slate-800 flex items-center gap-3 relative z-10">
-                    <MapPin className="w-4 h-4 text-[#a855f7]" />
-                    <span className="text-[11px] font-bold text-slate-300 uppercase tracking-widest">{eq.area}</span>
-                  </div>
-                </div>
-            ))}
+                  )}
+                  
+                  {totalPagesCount > 1 && (
+                    <div className="flex items-center justify-center gap-6 mt-4 relative z-20">
+                      <button 
+                        type="button"
+                        onClick={() => setPage(p => Math.max(p - 1, 1))}
+                        disabled={page === 1}
+                        className="w-10 h-10 rounded-full flex items-center justify-center bg-[#110121] border border-[#a855f7]/30 text-[#a855f7] hover:bg-[#a855f7]/20 hover:text-white transition-all disabled:opacity-30 disabled:hover:bg-[#110121]"
+                      >
+                        <ChevronLeft className="w-5 h-5" />
+                      </button>
+                      <div className="flex items-center gap-2">
+                        {Array.from({ length: totalPagesCount }).map((_, i) => (
+                          <span 
+                            key={i} 
+                            className={`transition-all duration-300 rounded-full ${page === i + 1 ? 'w-8 h-2 bg-[#a855f7] shadow-[0_0_10px_rgba(168,85,247,0.8)]' : 'w-2 h-2 bg-slate-700'}`} 
+                          />
+                        ))}
+                      </div>
+                      <button 
+                        type="button"
+                        onClick={() => setPage(p => Math.min(p + 1, totalPagesCount))}
+                        disabled={page === totalPagesCount}
+                        className="w-10 h-10 rounded-full flex items-center justify-center bg-[#110121] border border-[#a855f7]/30 text-[#a855f7] hover:bg-[#a855f7]/20 hover:text-white transition-all disabled:opacity-30 disabled:hover:bg-[#110121]"
+                      >
+                        <ChevronRight className="w-5 h-5" />
+                      </button>
+                    </div>
+                  )}
+                </>
+              );
+            })()}
           </div>
         </div>
       ) : (
@@ -270,7 +361,7 @@ export default function WorkOrderPage() {
                 
                 <div className="flex gap-6">
                   <div className="w-1/3">
-                    <img src={equipmentData.image || 'https://images.unsplash.com/photo-1519494026892-80bbd2d6f0d8?auto=format&fit=crop&w=1000&q=80'} alt={equipmentData.nombre} className="w-full aspect-square object-cover rounded-xl border border-slate-700 shadow-lg" />
+                    <img src={equipmentData.foto ? `http://localhost:8000${equipmentData.foto}` : (equipmentData.image || 'https://images.unsplash.com/photo-1519494026892-80bbd2d6f0d8?auto=format&fit=crop&w=1000&q=80')} alt={equipmentData.nombre} className="w-full aspect-square object-cover rounded-xl border border-slate-700 shadow-lg" />
                   </div>
                   <div className="w-2/3 space-y-4">
                     <div>
@@ -461,7 +552,7 @@ export default function WorkOrderPage() {
                         <div className="absolute bottom-1 right-1 w-6 h-6 bg-emerald-500 border-2 border-[#110121] rounded-full" />
                       </div>
                       
-                      <Badge variant="primary" className="mb-2 font-mono text-xs">{engineer.codigo_unico}</Badge>
+                      <Badge variant="info" className="mb-2 font-mono text-xs">{engineer.codigo_unico}</Badge>
                       <h3 className="text-xl font-bold text-white mb-1 line-clamp-1">{engineer.first_name} {engineer.last_name}</h3>
                       <p className="text-sm text-[#d8b4fe] font-medium mb-6 line-clamp-1">{engineer.especialidades?.[0]?.nombre || 'Ingeniero Biomédico'}</p>
 

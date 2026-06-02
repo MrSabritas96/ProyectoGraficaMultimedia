@@ -180,7 +180,7 @@ export default function EngineerEquipmentDetail({ params }: { params: any }) {
                 <Activity className="w-5 h-5 text-[#10b981]" />
                 <h3 className="font-bold text-white tracking-widest uppercase text-sm">Gemelo Digital 3D</h3>
               </div>
-              <Badge variant="primary" className="bg-[#10b981]/20 text-[#10b981] border border-[#10b981]/30">
+              <Badge variant="info" className="bg-[#10b981]/20 text-[#10b981] border border-[#10b981]/30">
                 Interactivo
               </Badge>
             </div>

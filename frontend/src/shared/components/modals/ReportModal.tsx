@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, FileText, CheckCircle2, ShieldCheck, Printer, Calendar as CalendarIcon, Tag, PenTool, Wrench, Package } from 'lucide-react';
+import { X, FileText, CheckCircle2, ShieldCheck, Printer, Calendar as CalendarIcon, Tag, PenTool, Wrench, Package, AlertTriangle, Search } from 'lucide-react';
 import { Badge } from '../Badge';
 import Cookies from 'js-cookie';
 
